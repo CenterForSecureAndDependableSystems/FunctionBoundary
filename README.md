@@ -15,7 +15,7 @@ Example:
 ```
 mkdir tmpJIMA
 cd tmpJIMA
-../scripts/runJima --dir ../datasets/stripped/x64gcc
+../scripts/runJima --dir ../datasets/strippedTestSuites/x64gcc
 ../scripts/countMatch.py --binDir ./ --symDir ../datasets/groundTruth/x64gcc
 ```
 
