@@ -11,3 +11,13 @@ Directories:
   <li> contains the data sets we used in the paper.
   </ul>
     
+Example:
+```
+mkdir tmpJIMA
+cd tmpJIMA
+../scripts/runJima --dir ../datasets/stripped/x64gcc
+../scripts/countMatch.py --binDir ./ --symDir ../datasets/groundTruth/x64gcc
+```
+
+This will create the data files from the JIMA tool, .res files for each file with details 
+and .csv files with combined results
